@@ -19,7 +19,9 @@ def show():
           "slate": "🟦", 
           "red": "🟥",
           "maroon": "🟥",
-          "green": "🟩",}
+          "green": "🟩",
+          "orange": "🟧",
+          "yellow": "🟨",}
     for row in grid:
         line = []
         for e, c in row:
