@@ -39,6 +39,8 @@ __For uniformity and consistency, follow these steps:__
 ```
 .
 ├── pydle.py
+├── _01_ArchivedPuzzles/
+├── _02_OwnPatterns/
 ├── MM-DD-YYYY/
 │   ├── MM-DD-YYYY.md
 │   ├── {puzzle-name}.py
@@ -46,6 +48,8 @@ __For uniformity and consistency, follow these steps:__
 ├── MM-DD-YYYY
 └── ...
 ```
+> __01_ArchivedPuzzles:__ Where the past puzzles are stored (i just answered these puzzles archived from the past in pydle)
+> __02_OwnPatterns:__ Where my very own created patterns are stored.
 > __MM-DD-YYYY/:__ For example 11-23-2026 (folder) </br>
 > __MM-DD-YYYY.md:__ For example 11-23-2026.md (md file) </br>
 > __{puzzle-name}.py:__ For example rice-and-dumpling.py </br>
