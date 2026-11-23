@@ -49,9 +49,15 @@ __For uniformity and consistency, follow these steps:__
 > __MM-DD-YYYY/:__ For example 11-23-2026 (folder) </br>
 > __{puzzle-name}.py:__ For example rice-and-dumpling.py </br>
 > __{PuzzleName}.png:__ For example RiceAndDumpling.py
+
 ## Functions inside `pydle.py`
 
-### What is `show()`?
+__What is `show()`?__ </br>
+This can be used for rendering or running the codes locally in terminal. This is called at the end of every `.py`  file. The `sq` dictionary needs to be updated everytime there are new attributes or colors  in the puzzles.
 
-### What is `pyddle()`?
+__What is `pyddle()`?__</br>
+The [pydle game](https://pydle.net/) has a built in function `pyddle( x, y, Emoji, Color)`. The defined function in this file is made just so the everytime the function is called, it won't cause undefined error. That function is not the official function from the game, it is made for this repo only.
+
 ## References or Materials
+- [Pydle](https://pydle.net/)
+- [pydle-public repo by anyhotcountry](https://github.com/anyhotcountry/pydle-public)
