@@ -16,11 +16,14 @@ def show():
           "white": "⬜",
           "gray": "🔲",
           "zinc": "🟦",
-          "slate": "🟦"}
+          "slate": "🟦", 
+          "red": "🟥",
+          "maroon": "🟥",
+          "green": "🟩",}
     for row in grid:
         line = []
         for e, c in row:
             cell = e or sq.get(c, "?")
-            wide = unicodedata.east_asian_width(cell) in "WF"
+            wide = len(cell) > 1 or unicodedata.east_asian_width(cell) in "WF"
             line.append(cell if wide else cell + " ")
         print(" ".join(line))
