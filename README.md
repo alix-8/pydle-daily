@@ -47,6 +47,7 @@ __For uniformity and consistency, follow these steps:__
 └── ...
 ```
 > __MM-DD-YYYY/:__ For example 11-23-2026 (folder) </br>
+> __MM-DD-YYYY.md:__ For example 11-23-2026.md (md file) </br>
 > __{puzzle-name}.py:__ For example rice-and-dumpling.py </br>
 > __{PuzzleName}.png:__ For example RiceAndDumpling.py
 
