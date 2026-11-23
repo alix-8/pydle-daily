@@ -1,4 +1,4 @@
-# DAILY PYDLE :D
+# DAILY PYDLE :D (No AI)
 
 __Contents__
 - [Answer Format](#answer-format)
