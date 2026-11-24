@@ -14,14 +14,16 @@ def pydle(x, y, emoji="", color="white"):
 def show():
     sq = {"black": "⬛",
           "white": "⬜",
-          "gray": "🔲",
-          "zinc": "🟦",
+          "gray": "⬛",
+          "zinc": "🔲",
           "slate": "🟦", 
           "red": "🟥",
           "maroon": "🟥",
           "green": "🟩",
           "orange": "🟧",
-          "yellow": "🟨",}
+          "yellow": "🟨",
+          "brown": "🟫",
+          "blue": "🟦",}
     for row in grid:
         line = []
         for e, c in row:
