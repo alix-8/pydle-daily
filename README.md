@@ -24,7 +24,7 @@ __For uniformity and consistency, follow these steps:__
 1. Answer the pydle for the day: https://pydle.net/
 2. Create a folder named with the current date (`MM-DD-YYYY`). This is where you'll store the outputs for that current day.
 3. Copy the code, and put inside a `{puzzle-name}.py` file
-    - Add the imports
+    - Add the imports (Change the dots (`..`) in `sys.path.append` function based on the file position in the structure)
         ```
         import sys, os
         sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
@@ -40,20 +40,29 @@ __For uniformity and consistency, follow these steps:__
 .
 ├── pydle.py
 ├── _01_ArchivedPuzzles/
+│   ├── Images/
+│   ├── {puzzle_name}.py
+│   ├── {puzzle_name}.py
+│   ├── ...
+│   └── ArchivedPuzzles.md
 ├── _02_OwnPatterns/
-├── MM-DD-YYYY/
-│   ├── MM-DD-YYYY.md
-│   ├── {puzzle-name}.py
-│   └── {PuzzleName}.png
-├── MM-DD-YYYY
-└── ...
+│   ├── {pattern_name}.py
+│   └── {PatternName}.png
+└── _03_DailyPuzzles/
+    ├── MM-DD-YYYY/
+    │   ├── MM-DD-YYYY.md
+    │   ├── {puzzle_name}.py
+    │   └── {PuzzleName}.png
+    ├── MM-DD-YYYY
+    └── ...
 ```
-> __01_ArchivedPuzzles:__ Where the past puzzles are stored (i just answered these puzzles archived from the past in pydle)
-> __02_OwnPatterns:__ Where my very own created patterns are stored.
-> __MM-DD-YYYY/:__ For example 11-23-2026 (folder) </br>
-> __MM-DD-YYYY.md:__ For example 11-23-2026.md (md file) </br>
-> __{puzzle-name}.py:__ For example rice-and-dumpling.py </br>
-> __{PuzzleName}.png:__ For example RiceAndDumpling.py
+> - __01_ArchivedPuzzles:__ Where the past puzzles are stored (i just answered these puzzles archived from the past in pydle)
+> - __02_OwnPatterns:__ Where my very own created patterns are stored.
+> - ___03_DaiyPuzzles:__ Where the daily puzzles are stored
+>   - __MM-DD-YYYY/:__ For example 11-23-2026 (folder) </br>
+>   - __MM-DD-YYYY.md:__ For example 11-23-2026.md (md file) </br>
+>   - __{puzzle-name}.py:__ For example rice-and-dumpling.py </br>
+>   - __{PuzzleName}.png:__ For example RiceAndDumpling.py
 
 ## Functions inside `pydle.py`
 
