@@ -23,7 +23,9 @@ def show():
           "orange": "🟧",
           "yellow": "🟨",
           "brown": "🟫",
-          "blue": "🟦",}
+          "blue": "🟦",
+          "pink": "🟥",
+          "purple": "🟪",}
     for row in grid:
         line = []
         for e, c in row:
