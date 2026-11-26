@@ -15,7 +15,7 @@ def show():
     sq = {"black": "⬛",
           "white": "⬜",
           "gray": "⬛",
-          "zinc": "🔲",
+          "zinc": "⬜",
           "slate": "🟦", 
           "red": "🟥",
           "maroon": "🟥",
